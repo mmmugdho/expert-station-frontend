@@ -1,0 +1,41 @@
+@use './constant' as *;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $fontset-en;
+}
+input,
+textarea {
+  font-family: $fontset-en;
+}
+h1,
+h2,
+h3,
+p {
+  padding: 0;
+  margin: 0;
+}
+button {
+  border: none;
+}
+a {
+  margin: 0;
+  color: unset;
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  list-style-type: none;
+}
+table {
+  border-spacing: 0;
+}

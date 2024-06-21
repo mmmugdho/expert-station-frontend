@@ -1,0 +1,40 @@
+.a-icon {
+  $root: &;
+  width: 100%;
+  height: 100%;
+  $icons: (
+    // iconList
+    "facebook",
+    "insta",
+    "linkedin"
+  );
+
+  display: inline-block;
+
+  @each $icon-name in $icons {
+    &--#{$icon-name} {
+      background-image: url("~../assets/images/icons/#{$icon-name}.svg");
+      // background-image: url("../../../assets/images/icons/#{$icon-name}.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    &--#{$icon-name}-mask {
+      background-color: currentColor;
+      -webkit-mask-image: url("~../assets/images/icons/#{$icon-name}.svg");
+      mask-image: url("~../assets/images/icons/#{$icon-name}.svg");
+      -webkit-mask-position: center;
+      mask-position: center;
+      -webkit-mask-repeat: no-repeat;
+      mask-repeat: no-repeat;
+      -webkit-mask-size: contain;
+      mask-size: contain;
+      background-image: unset;
+
+      &:focus {
+        background-color: #000000;
+      }
+    }
+  }
+}

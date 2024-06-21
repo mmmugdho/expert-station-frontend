@@ -1,0 +1,21 @@
+.o-hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 150px;
+  width: 100%;
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    &--header {
+    }
+    &--text {
+    }
+    &--button {
+    }
+  }
+  &__picture {
+    width: 50%;
+  }
+}

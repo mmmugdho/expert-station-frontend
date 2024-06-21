@@ -1,0 +1,33 @@
+.a_button {
+  $root: &;
+  background-color: #fddc56;
+  height: 20px;
+  width: 100px;
+  border-radius: 2px;
+  color: #f52d5e;
+  font-size: 16px;
+  border-radius: 6px;
+
+  //button sizes
+  &--smallSize {
+    width: 127px;
+    height: 27px;
+  }
+  &--mediumSize {
+    height: 32px;
+    width: 88px;
+  }
+  &--largeSize {
+    width: 130px;
+    height: 37px;
+  }
+  &--xLargeSize {
+    width: 210px;
+    height: 43px;
+  }
+
+  //button background colors
+  &--darkPink {
+    background-color: #f52d5e;
+  }
+}

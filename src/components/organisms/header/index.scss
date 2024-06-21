@@ -1,0 +1,26 @@
+.o_header {
+  $root: &;
+  height: 78px;
+  width: 100%;
+  background-color: #f52d5e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 150px;
+  S &__text {
+  }
+  &__ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 29px;
+  }
+  &__list {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  &__list:hover {
+    font-weight: 500;
+  }
+}

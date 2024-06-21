@@ -1,0 +1,102 @@
+.o-footer {
+  $root: &;
+  display: flex;
+  justify-content: space-between;
+  padding: 56px 150px 0px 150px;
+  height: 500px;
+  background-color: #f52d5e;
+  font-family: Rubik;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  &__left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 289px;
+  }
+  &__socialIconsContent {
+    display: flex;
+    align-items: center;
+  }
+  &__socialIcons {
+    margin-left: 26px;
+    display: flex;
+    gap: 10px;
+  }
+  &__item {
+    height: 30px;
+    width: 30px;
+  }
+  &__leftText {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0.1rem;
+  }
+  &__socialIconText {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 50px;
+  }
+  &__middle {
+    display: flex;
+    flex-direction: column;
+  }
+  &__mddileText {
+    // margin-top: 67px;
+    font-size: 24px;
+  }
+  &__linkList {
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+  &__linkItem {
+    color: white;
+    font-family: Rubik;
+  }
+  &__right {
+    display: flex;
+    flex-direction: column;
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  &__textInput {
+    height: 33px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding-left: 10px;
+    &::placeholder {
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 18px;
+    }
+  }
+
+  &__textArea {
+    width: 100%;
+    height: 87px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 5px 0px 0px 10px;
+    margin-top: 20px;
+  }
+
+  &__rightText {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 43px;
+  }
+  &__inputGroup {
+    display: flex;
+    gap: 10px;
+    margin-top: 23px;
+  }
+  &__button {
+    margin-top: 20px;
+  }
+}
