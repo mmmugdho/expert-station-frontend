@@ -1,4 +1,3 @@
-"use client";
 import { addClassName, mapModifiers } from "@/libs/component";
 import { ContainerProps } from "@/types/common.types";
 import React, { useMemo } from "react";

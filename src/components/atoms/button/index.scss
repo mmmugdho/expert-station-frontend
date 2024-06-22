@@ -27,7 +27,12 @@
   }
 
   //button background colors
-  &--darkPink {
+  &--darkPinkBG {
     background-color: #f52d5e;
+  }
+
+  //text colour
+  &--whiteColor {
+    color: white;
   }
 }

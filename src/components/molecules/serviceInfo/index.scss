@@ -1,0 +1,71 @@
+.m-serviceInfo {
+  width: 361px;
+  &__imageWrapper {
+    position: relative;
+    width: 361px;
+  }
+  &__image {
+    width: 361px;
+    height: 228px;
+    border-radius: 10px 0px 0px 0px;
+  }
+  &__title {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.11px;
+    text-align: left;
+    bottom: 6px;
+    min-height: 49px;
+    min-width: 274px;
+    background-color: #f52d5e;
+    border-radius: 0px 10px 0px 10px;
+    color: #ffffff;
+    padding-left: 10px;
+  }
+  &__react {
+    position: absolute;
+    top: 13px;
+    right: 13px;
+  }
+  &__userAndDuration {
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__userDetails {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  &__expertImage {
+    background-color: #f52d5e;
+    border-radius: 50%;
+    width: 39.55px;
+    height: 39.54px;
+  }
+  &__durationDetails {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+  }
+  &__commonSubText {
+    font-family: Rubik;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 13.82px;
+    color: #f52d5e;
+  }
+  &__commonText {
+    font-family: Rubik;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 13.82px;
+    text-align: left;
+    color: #727272;
+  }
+}
