@@ -1,21 +1,57 @@
 .o-hero {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 0px 150px;
   width: 100%;
+  background-color: #faf7f7;
+  min-height: 600px;
   &__content {
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 50%;
-    &--header {
-    }
-    &--text {
-    }
-    &--button {
-    }
+  }
+  &__curve {
+    position: absolute;
+    top: 10px;
+    left: -6px;
+    z-index: -1;
+  }
+  &__header {
+  }
+  &__text {
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25.01px;
+    text-align: left;
+  }
+  &__button {
   }
   &__picture {
     width: 50%;
+    height: 100px; /* Ensure you have some height to make the image visible */
+    background-image: url("../../../assets/images/icons/facebook.svg");
+    background-size: cover; /* Adjusts the image to cover the div */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image within the div */
+  }
+  &__highlighted {
+    color: #f52d5e;
+    position: relative;
+    z-index: 1;
+  }
+  &__underlinedText {
+    position: relative;
+    display: inline-block;
+  }
+  &__underline {
+    position: absolute;
+    bottom: 0;
+  }
+  &__playIcon {
+    width: 16px;
+    height: 16px;
   }
 }

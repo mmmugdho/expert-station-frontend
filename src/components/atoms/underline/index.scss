@@ -1,0 +1,15 @@
+.a-underline {
+  &--big {
+    background-color: #f52d5e;
+    width: 244px;
+    height: 4px;
+    text-align: right;
+  }
+  &--small {
+    background-color: #f52d5e;
+    width: 130.5px;
+    height: 3px;
+    border: 3px 0px 0px 0px;
+    text-align: center;
+  }
+}

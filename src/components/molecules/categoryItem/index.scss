@@ -1,0 +1,29 @@
+.m-categoryItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  &__image {
+    height: 15px;
+    width: 15px;
+  }
+  &__imageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f52d5e;
+    width: 27.72px;
+    height: 27.72px;
+    border-radius: 4px;
+  }
+  &__text {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    text-align: left;
+  }
+  &__icon {
+    display: flex;
+    align-items: center;
+  }
+}

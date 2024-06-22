@@ -1,0 +1,10 @@
+.m-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__highlighted {
+    color: #f52d5e;
+  }
+}

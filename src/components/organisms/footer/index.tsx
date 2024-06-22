@@ -25,7 +25,6 @@ function Footer() {
   const handleSubmit = (e: any) => {
     e.preventDefault();
     // Here you can perform any action with the form data, like sending it to a server
-    console.log(formData);
     setFormData({
       name: "",
       email: "",
@@ -61,7 +60,9 @@ function Footer() {
               </Link>
             </div>
             <div className="o-footer__item">
-              <Link href="https://www.instagram.com">ss</Link>
+              <Link href="https://www.instagram.com">
+                <Icon iconName="insta" />
+              </Link>
             </div>
           </div>
         </div>
